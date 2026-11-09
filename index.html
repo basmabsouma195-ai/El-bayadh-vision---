@@ -1,1 +1,104 @@
 
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07552f">
+  <meta name="description" content="البيض فيجن _ El bayadh vision، منصتكم الأولى لمتابعة أخبار ولاية البيض والوطن.">
+  <title>البيض فيجن _ El bayadh vision</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Cairo',sans-serif;background:#f5f7f5;color:#18251d}
+    a{text-decoration:none;color:inherit}
+    header{background:#07552f;color:white;padding:17px 5%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:15px}
+    .brand{font-size:21px;font-weight:900}
+    .brand span{display:block;font-size:13px;color:#c5e5d1}
+    nav{display:flex;gap:18px;flex-wrap:wrap;font-size:14px;font-weight:700}
+    nav a:hover{color:#a8e8bd}
+    .hero{background:linear-gradient(120deg,#063b24,#08723d);color:white;text-align:center;padding:65px 20px}
+    .hero h1{font-size:clamp(28px,6vw,48px);font-weight:900}
+    .hero p{margin:12px auto 25px;color:#d9f2e2;font-size:16px}
+    .hero a{display:inline-block;background:white;color:#07552f;padding:11px 25px;border-radius:7px;font-weight:800}
+    .container{max-width:1100px;margin:35px auto;padding:0 16px}
+    .section-title{border-right:5px solid #08723d;padding-right:12px;margin-bottom:20px;font-size:22px;font-weight:900}
+    .welcome{background:white;padding:25px;border-radius:12px;line-height:2;border:1px solid #e4ece6}
+    .news-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:17px;margin-top:20px}
+    .news-card{background:white;border:1px solid #e4ece6;border-radius:12px;padding:20px;min-height:145px}
+    .news-card small{color:#08723d;font-weight:800}
+    .news-card h3{margin:10px 0;font-size:17px}
+    .news-card p{font-size:13px;color:#69756d}
+    .facebook{background:#eaf4ed;padding:25px;text-align:center;border-radius:12px;margin-top:30px}
+    .facebook a{display:inline-block;background:#07552f;color:white;padding:10px 22px;border-radius:7px;margin-top:13px;font-weight:700}
+    footer{background:#092d1c;color:#d9e9df;text-align:center;padding:25px 15px;margin-top:45px;font-size:13px;line-height:2}
+    @media(max-width:600px){header{justify-content:center;text-align:center}nav{justify-content:center}.hero{padding:48px 15px}}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    البيض فيجن _ El bayadh vision
+    <span>منصتكم الأولى</span>
+  </div>
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#news">الأخبار</a>
+    <a href="#community">مجتمع</a>
+    <a href="#about">من نحن</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>البيض فيجن</h1>
+  <p>منصتكم الأولى لمتابعة أخبار ولاية البيض والوطن</p>
+  <a href="#news">اكتشف آخر الأخبار</a>
+</section>
+
+<main class="container">
+  <section id="about">
+    <h2 class="section-title">مرحباً بكم في منصتنا</h2>
+    <div class="welcome">
+      <strong>البيض فيجن _ El bayadh vision</strong>
+      <p>منصة إعلامية تهتم بأخبار ولاية البيض، وتنقل انشغالات المواطنين، وتسلط الضوء على المبادرات والمستجدات المحلية والوطنية.</p>
+      <p>رسالتنا: إعلام هادف، معلومة موثوقة، وصوت المجتمع.</p>
+    </div>
+  </section>
+
+  <section id="news" style="margin-top:35px">
+    <h2 class="section-title">آخر الأخبار والمستجدات</h2>
+    <div class="news-grid">
+      <article class="news-card">
+        <small>أخبار ولاية البيض</small>
+        <h3>أخبار ولايتنا</h3>
+        <p>تابعوا آخر المستجدات والأخبار المحلية.</p>
+      </article>
+      <article class="news-card">
+        <small>أخبار وطنية</small>
+        <h3>الجزائر اليوم</h3>
+        <p>أهم الأخبار والمستجدات الوطنية.</p>
+      </article>
+      <article class="news-card">
+        <small>المجتمع</small>
+        <h3>مبادرات وقضايا إنسانية</h3>
+        <p>مساحة لنقل الانشغالات والمبادرات المجتمعية.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="community" class="facebook">
+    <h2>كونوا بالقرب منا</h2>
+    <p>تابعوا صفحتنا الرسمية على فيسبوك ليصلكم كل جديد.</p>
+    <a href="https://www.facebook.com/" target="_blank" rel="noopener">صفحتنا على فيسبوك</a>
+  </section>
+</main>
+
+<footer>
+  <strong>البيض فيجن _ El bayadh vision</strong>
+  <p>منصتكم الأولى</p>
+  <p>جميع الحقوق محفوظة © 2026</p>
+</footer>
+
+</body>
+</html>
